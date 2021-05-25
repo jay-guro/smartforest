@@ -16,7 +16,7 @@
         ],
         "images": [
            {
-              "src": "assets/img/particle1.png",
+              "src": "img/particle1.png",
               "particles": {
                  "move": {
                     "direction": "top",
@@ -26,7 +26,7 @@
               }
            },
            {
-              "src": "assets/img/particle2.png",
+              "src": "img/particle2.png",
               "particles": {
                  "move": {
                     "direction": "top",
@@ -36,7 +36,7 @@
               }
            },
            {
-              "src": "assets/img/particle3.png",
+              "src": "img/particle3.png",
               "particles": {
                  "move": {
                     "direction": "top",
@@ -46,7 +46,7 @@
               }
            },
            {
-              "src": "assets/img/particle4.png",
+              "src": "img/particle4.png",
               "particles": {
                  "move": {
                     "direction": "top",

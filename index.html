@@ -2,52 +2,96 @@
 <html>
    <head>
       <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6QHYNW268B"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-6QHYNW268B');
-</script>
-<meta charset="utf-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <title>SMART FOREST &copy;</title>
-      <meta name="description" content="SMART FOREST" />
-      <link rel="shortcut icon" href="assets/img/favicon.png" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link
-         href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap"
-         rel="stylesheet"
-         />
-      <link rel="stylesheet" href="assets/css/style.min.css" />
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-6QHYNW268B"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         
+         gtag('config', 'G-6QHYNW268B');
+      </script>
+      <title>SMART FOREST | COMING SOON</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta http-equiv="x-ua-compatible" content="ie=edge" />
+      <meta name="description" content="SMART FOREST | COMING SOON"/>
+      <link href="img/favicon.png" rel="shortcut icon" type="image/png" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/bulma.min.css">
+      <link rel="stylesheet" href="css/all.min.css">
+      <script type="text/javascript" src="js/all.min.js"></script>
    </head>
    <body>
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W5KB7BP"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
-      <div id="js"></div>
-      <div id="container">
-         <h1 class="title">SMART FOREST</h1>
-         <h1 class="cta">SIGN UP FOR EARLY ACCESS</h1>
-         <div class="form">
-         <h1 class="label">ENTER YOUR EMAIL ADDRESS </h1>
-         <form action="ty.html" method="GET">
-            <input
-               type="email"
-               placeholder="Email"
-               name="_success"
-               class="input"
-               required/>
+      <div id="tsparticles-js"></div>
+      <section class="hero is-dark is-fullheight">
+         <nav class="navbar is-dark is-large">
+            <div class="navbar-brand">
+               <a class="navbar-item" target="_blank" href="https://smartforest.jasonguro.com">
+               <span class="logo-title" style="color: #9f6934; font-weight: bold;">SMART FOREST</span>
+               </a>
+               <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+               <span aria-hidden="true"></span>
+               <span aria-hidden="true"></span>
+               <span aria-hidden="true"></span>
+               </a>
+            </div>
+            <div id="navbar" class="navbar-menu">
+               <div class="navbar-start">
                </div>
-            <button type="submit" class="button">NOTIFY ME!</button>
-         </form>
-         <footer>SMART FOREST &copy; 2021 ALL RIGHTS RESERVED <a href="http://resume.jasonguro.com/">JASON GURO</a></footer>
-      </div>
+               <div class="navbar-end">
+                  <div class="navbar-item">
+                     <div class="field is-grouped">
+                        <p class="control">
+                           <a class="button is-rounded" style="background-color: #9f6934; border-color: #9f6934; color: #fff" href="mailto:jason@loudway.com">
+                           <span class="icon">
+                           <i class="fas fa-envelope"></i>
+                           </span>
+                           <span style="font-weight: bold;">CONTACT ME</span>
+                           </a>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </nav>
+         <div class="hero-body">
+            <div class="container has-text-centered">
+               <p class="title is-size-1 pb-5" style="color: #9f6934; font-weight: bold;">
+                  SIGN UP FOR EARLY ACCESS
+               </p>
+               <p class="subtitle is-size-4" style="font-weight: bold;">
+                  ENTER YOUR EMAIL ADDRESS
+               </p>
+               <div class="control has-icons-left has-icons-right">
+                  <input class="input is-medium" type="email" placeholder="Email">
+                  <span class="icon is-left">
+                     <i class="fas fa-envelope"></i>
+                  </span>
+                  <span class="icon is-right">
+                     <i class="fas fa-check"></i>
+                  </span>
+                  
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="section is-medium pt-5" style="background-color:#363636">
+         <div class="has-text-centered">
+            <p style="color:#FFF; font-weight:bold;">
+               SMART FOREST | BEING BUILT BY
+               <a target=”_blank” href="https://www.jasonguro.com" style="color:#9f6934; font-weight:bold;">JASON GURO </a>
+               <span><i class="far fa-copyright"></i></span> ALL RIGHTS RESERVED
+               <script type="text/javascript">document.write(new Date().getFullYear());</script>
+            </p>
+         </div>
+      </section>
+      <script src="./js/index.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.18.4/dist/tsparticles.min.js"></script>
       <script>
          window.onload = function () {
-           particlesJS.load("js", "particles.json");
+         particlesJS.load("tsparticles-js", "js/particles.json", function () {
+             console.log("callback - particles.js config loaded");
+         });
          };
       </script>
    </body>
