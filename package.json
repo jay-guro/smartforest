@@ -1,7 +1,7 @@
 {
   "name": "smart-forest.jasonguro.com",
   "version": "1.0.0",
-  "description": "Smart Forest",
+  "description": "SMART FOREST",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

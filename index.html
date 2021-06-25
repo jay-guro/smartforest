@@ -2,24 +2,26 @@
 <html>
 
 <head>
-   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <!-- Google Analytics -->
    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6QHYNW268B"></script>
    <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() { dataLayer.push(arguments); }
       gtag('js', new Date());
-
       gtag('config', 'G-6QHYNW268B');
    </script>
+   <!-- Meta -->
    <title>SMART FOREST | COMING SOON</title>
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1" />
    <meta http-equiv="x-ua-compatible" content="ie=edge" />
    <meta name="description" content="SMART FOREST | COMING SOON" />
+   <!-- Styles -->
    <link href="img/favicon.png" rel="shortcut icon" type="image/png" />
-   <link rel="stylesheet" href="css/style.css" />
+   <link rel="stylesheet" href="css/style.min.css" />
    <link rel="stylesheet" href="css/bulma.min.css">
    <link rel="stylesheet" href="css/all.min.css">
+   <!-- Scripts -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
       integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
       crossorigin="anonymous"></script>
@@ -27,13 +29,16 @@
 </head>
 
 <body>
+   <!-- Loader -->
    <div id="loader-wrapper">
       <div id="loader"></div>
       <div class="loader-section section-left"></div>
       <div class="loader-section section-right"></div>
    </div>
+   <!-- ParticlesJS -->
    <div id="tsparticles-js"></div>
    <section class="hero is-dark is-fullheight">
+      <!-- NavBar -->
       <nav class="navbar is-dark is-large">
          <div class="navbar-brand">
             <a class="navbar-item" target="_blank" href="https://smartforest.jasonguro.com">
@@ -66,6 +71,7 @@
             </div>
          </div>
       </nav>
+      <!-- Body -->
       <div class="hero-body">
          <div class="container has-text-centered">
             <p class="title is-size-1 pb-5" style="color: #9f6934; font-weight: bold;">
@@ -95,32 +101,19 @@
          </div>
          </form>
    </section>
+   <!-- Footer -->
    <section class="section is-medium pt-5" style="background-color:#363636">
       <div class="has-text-centered">
          <p style="color:#FFF; font-weight:bold;">
-            SMART FOREST | BEING BUILT BY
+            SMART FOREST | 
             <a target=”_blank” href="https://www.jasonguro.com" style="color:#9f6934; font-weight:bold;">JASON GURO </a>
             <span><i class="far fa-copyright"></i></span> ALL RIGHTS RESERVED
             <script type="text/javascript">document.write(new Date().getFullYear());</script>
          </p>
       </div>
    </section>
-   <script src="./js/index.js"></script>
+   <script src="./js/index.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.18.4/dist/tsparticles.min.js"></script>
-   <script>
-      window.onload = function () {
-         particlesJS.load("tsparticles-js", "js/particles.json", function () {
-            console.log("callback - particles.js config loaded");
-         });
-      };
-   </script>
-   <script type="text/javascript">
-      $(document).ready(function () {
-         setTimeout(function () {
-            $('body').addClass('loaded');
-         }, 1500);
-      });
-   </script>
 </body>
 
 </html>

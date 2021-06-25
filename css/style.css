@@ -1,3 +1,6 @@
+/* ------------------------------------
+Logo
+------------------------------------- */
 .logo-title {
         font-size: 2rem;
     }
@@ -8,6 +11,9 @@
     }
 }
 
+/* ------------------------------------
+ParticlesJS
+------------------------------------- */
 #tsparticles-js {
   position: fixed;
   top: auto;
@@ -17,25 +23,16 @@
   z-index: 0;
   background: transparent;
 }
-#tsparticles-js_cs {
-  position: fixed;
-  top: 0px;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 0;
-  background: transparent;
-  background-image: url("");
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-}
+
 canvas.tsparticles-canvas-el {
   max-width: 100%;
   max-height: 100%;
   z-index: 0;
 }
 
+/* ------------------------------------
+Loader
+------------------------------------- */
 #loader-wrapper {
     position: fixed;
     top: 0;
