@@ -1,24 +1,11 @@
 /* ------------------------------------
-Logo
-------------------------------------- */
-.logo-title {
-        font-size: 2rem;
-    }
-
-@media (max-width: 768px) {
-    .logo-title {
-        font-size: 1rem;
-    }
-}
-
-/* ------------------------------------
 ParticlesJS
 ------------------------------------- */
 #tsparticles-js {
   position: fixed;
   top: auto;
   left: 0;
-  height: 100vw;
+  height: 100vh;
   width: 100vw;
   z-index: 0;
   background: transparent;
